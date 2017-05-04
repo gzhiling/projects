@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     label.text = @"hello world";
+    label.backgroundColor = [UIColor blueColor];
 }
 
 - (void)didReceiveMemoryWarning {
